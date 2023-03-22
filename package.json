@@ -1,6 +1,6 @@
 {
   "name": "commitizen",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0",
   "description": "Git commit, but play nice with conventions.",
   "main": "dist/index.js",
   "scripts": {
@@ -57,7 +57,7 @@
     "babel-plugin-istanbul": "6.1.1",
     "chai": "4.3.6",
     "codecov": "3.8.3",
-    "conventional-changelog-conventionalcommits": "4.6.3",
+    "conventional-changelog-conventionalcommits": "5.0.0",
     "cz-conventional-changelog-default-export": "0.0.0-semantically-released.1",
     "ghooks": "2.0.4",
     "in-publish": "2.0.1",
