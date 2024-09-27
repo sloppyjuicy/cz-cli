@@ -58,13 +58,14 @@ npm install commitizen -g
 Next, initialize your project to use the cz-conventional-changelog adapter by typing:
 
 ```sh
+# npm
 commitizen init cz-conventional-changelog --save-dev --save-exact
-```
 
-Or if you are using Yarn:
-
-```sh
+# yarn
 commitizen init cz-conventional-changelog --yarn --dev --exact
+
+# pnpm
+commitizen init cz-conventional-changelog --pnpm --save-dev --save-exact
 ```
 
 Note that if you want to force install over the top of an old adapter, you can apply the `--force` argument. For more information on this, just run `commitizen help`.
@@ -278,6 +279,7 @@ We know that every project and build process has different requirements, so we'v
 - [cz-format-extension](https://github.com/tyankatsu0105/cz-format-extension)
 - [cz-emoji-conventional](https://www.npmjs.com/package/cz-emoji-conventional)
 - [cz-git](https://github.com/Zhengqbbb/cz-git)
+- [cz-vinyl](https://github.com/Exlint/cz-vinyl)
 
 To create an adapter, just fork one of these great adapters and modify it to suit your needs. We pass you an instance of [Inquirer.js](https://github.com/SBoudrias/Inquirer.js/), but you can capture input using whatever means necessary. Just call the `commit` callback with a string and we'll be happy. Publish it to npm, and you'll be all set!
 
@@ -332,13 +334,13 @@ Special thanks to @stevelacy, whose [gulp-git](https://www.npmjs.com/package/gul
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="graphs/contributors"><img src="https://opencollective.com/commitizen/contributors.svg?width=890&button=false" /></a>
+<a href="https://opencollective.com/commitizen#section-contributors"><img src="https://opencollective.com/commitizen/contributors.svg?width=890&button=false" /></a>
 
 ## Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/commitizen#backer)]
 
-<a href="https://opencollective.com/commitizen#backers" target="_blank"><img src="https://opencollective.com/commitizen/backers.svg?width=890"></a>
+<a href="https://opencollective.com/commitizen#category-BUDGET" target="_blank"><img src="https://opencollective.com/commitizen/backers.svg?width=890"></a>
 
 ## Sponsors
 
